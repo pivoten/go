@@ -31,5 +31,5 @@ PRs, but nothing merges without Pivoten review.
 Generic, dependency-light Go packages usable across Pivoten projects, each with tests and no
 secrets.
 
-- `temporal/` - Temporal client + worker bootstrap with mTLS and AES-256-GCM payload
+- `pkg/temporal/` - Temporal client + worker bootstrap with mTLS and AES-256-GCM payload
   encryption, configured from environment variables.

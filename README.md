@@ -7,7 +7,7 @@ proprietary business logic**, so it can be consumed by any Pivoten project.
 
 ## Packages
 
-### `temporal`
+### `pkg/temporal`
 
 A Temporal client + worker bootstrap with **mTLS** and **AES-256-GCM payload
 encryption**, configured from environment variables. It mirrors the conventions
