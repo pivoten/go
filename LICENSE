@@ -1,0 +1,6 @@
+Copyright (c) 2026 Pivoten, LLC. All rights reserved.
+
+Shared internal Go packages for Pivoten, LLC. This repository is public for
+distribution convenience (so any Pivoten project can fetch it without cross-repo
+authentication), but no license to use, copy, modify, or distribute is granted
+to any third party. It contains no secrets or proprietary business logic.
