@@ -24,7 +24,7 @@ func TestCodecRoundTripAndHidesPlaintext(t *testing.T) {
 	}
 	dc := converter.GetDefaultDataConverter()
 
-	secret := "PIVOTEN\\Administrator reset-password"
+	secret := "sensitive-payload-example"
 	p, err := dc.ToPayload(secret)
 	if err != nil {
 		t.Fatal(err)
